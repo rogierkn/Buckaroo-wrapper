@@ -1,0 +1,24 @@
+{
+  "name": "rogierkn/buckaroo-wrapper",
+  "authors": [
+    {
+      "name": "Rogier Knoester",
+      "email": "knoesterrogier@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "http://github.com/rogierkn/omnipay-buckaroo"
+    }
+  ],
+  "require": {
+    "omnipay/buckaroo": "dev-sepa"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Rogierkn\\BuckarooWrapper\\": "src/"
+    }
+  }
+}
