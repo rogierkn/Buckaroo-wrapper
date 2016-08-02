@@ -6,14 +6,9 @@
       "email": "knoesterrogier@gmail.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "http://github.com/rogierkn/omnipay-buckaroo"
-    }
-  ],
+  
   "require": {
-    "omnipay/buckaroo": "dev-sepa"
+    "omnipay/buckaroo": "~2.0"
   },
 
   "autoload": {
